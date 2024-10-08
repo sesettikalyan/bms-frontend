@@ -11,6 +11,8 @@ import Header from "./components/Header/header";
 import CreatePost from "./components/create/createPost";
 import DetailView from "./components/details/detailView";
 import UpdatePost from "./components/create/update";
+import About from "./components/About/about";
+import Contact from "./components/Contact/contact";
 
 const PrivateRoute = () => {
   const auth = sessionStorage.getItem("authenticated");
@@ -30,8 +32,14 @@ export default function App() {
       <div className="mt-1">
         <Routes>
           <Route path="/" element={<Login />} />
-          <Route path="/" element={<PrivateRoute />}>
+          <Route path="/home" element={<PrivateRoute />}>
             <Route path="/home" element={<Home />} />
+          </Route>
+          <Route path="/about" element={<PrivateRoute />}>
+            <Route path="/about" element={<About />} />
+          </Route>
+          <Route path="/contact" element={<PrivateRoute />}>
+            <Route path="/contact" element={<Contact />} />
           </Route>
           <Route path="/create" element={<PrivateRoute />}>
             <Route path="/create" element={<CreatePost />} />
