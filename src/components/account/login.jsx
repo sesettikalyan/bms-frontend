@@ -73,8 +73,8 @@ export default function Login() {
       {() => (
         <div className="bg-white w-[100%] flex justify-center ">
           <div
-            className={` bg-white w-[30%] mx-auto p-[4%] pt-0 drop-shadow-xl flex flex-col items-start ${
-              !UserStore.isAuthenticated ? "mt-[2.5%]" : "mt-[1%]"
+            className={` bg-white w-[90%] md:w-[30%] mx-auto p-[4%] pt-0 md:drop-shadow-xl flex flex-col items-start ${
+              !UserStore.isAuthenticated ? "mt-[35%] md:mt-[2.5%]" : "mt-[1%]"
             }`}>
             <img
               src={logo}

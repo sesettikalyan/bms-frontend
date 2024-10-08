@@ -3,7 +3,7 @@ import banner from "../../assets/banner.jpeg";
 const Banner = () => {
   return (
     <div
-      className="w-full h-[50vh] bg-center bg-cover object-cover bg-no-repeat flex flex-col items-center justify-center"
+      className="w-full h-[30vh] md:h-[50vh] bg-center bg-cover object-cover bg-no-repeat flex flex-col items-center justify-center"
       style={{
         backgroundImage:
           "url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg)",
