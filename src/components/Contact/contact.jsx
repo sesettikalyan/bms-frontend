@@ -3,7 +3,7 @@ import { FaGithub, FaInstagram, FaEnvelope } from "react-icons/fa";
 const Contact = () => {
   return (
     <div className="w-full">
-      <div className="bg-[url('http://mrtaba.ir/image/bg2.jpg')] h-80 bg-cover bg-left-top md:bg-center"></div>
+      <div className="bg-[url('https://media.istockphoto.com/id/1311934969/photo/contact-us.jpg?s=612x612&w=0&k=20&c=_vmYyAX0aFi-sHH8eYS-tLLNfs1ZWXnNB8M7_KWwhgg=')] h-80 bg-cover bg-left-top md:bg-center"></div>
 
       <div className="p-6 md:p-12">
         <h3 className="text-3xl font-bold mt-8 md:text-4xl">
