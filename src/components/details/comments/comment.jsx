@@ -47,8 +47,8 @@ const Comment = ({ post }) => {
     <Observer>
       {() => (
         <div className="space-y-4">
-          <div className="flex items-start mt-8 space-x-4">
-            <img src={url} alt="dp" className="w-12 h-12 rounded-full" />
+          <div className="flex items-start mt-8 md:space-x-4 space-x-2">
+            <img src={url} alt="dp" className="w-10 h-10 md:w-12 md:h-12 rounded-full" />
             <textarea
               className="flex-grow p-2 border rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400"
               rows="4"

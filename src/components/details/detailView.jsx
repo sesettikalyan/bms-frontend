@@ -41,7 +41,7 @@ const DetailView = () => {
             src={PostStore?.post?.image || url}
             alt="post"
           />
-          <div className="flex justify-end mt-[1%]">
+          <div className="flex justify-end mt-[2%] md:mt-[1%]">
             {account.username === PostStore?.post?.username && (
               <>
                 <Link to={`/update/${PostStore?.post?._id}`}>
@@ -54,7 +54,7 @@ const DetailView = () => {
               </>
             )}
           </div>
-          <h1 className="text-3xl font-bold text-center  mb-4 break-words w-full mx-auto">
+          <h1 className="text-2xl md:text-3xl font-bold text-center  mb-4 break-words w-full mx-auto">
             {PostStore?.post?.title}
           </h1>
 
@@ -72,7 +72,7 @@ const DetailView = () => {
             </span>
           </div>
 
-          <p className="text-lg leading-relaxed">
+          <p className="text-base md:text-lg leading-relaxed">
             {PostStore?.post?.description}
           </p>
 

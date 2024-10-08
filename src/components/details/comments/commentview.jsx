@@ -26,7 +26,7 @@ const CommentView = ({ comment, setToggle }) => {
           />
         )}
       </div>
-      <p className="text-gray-800">{comment?.comment}</p>
+      <p className="text-gray-800 w-full break-words">{comment?.comment}</p>
     </div>
   );
 };

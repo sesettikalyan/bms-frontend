@@ -74,8 +74,8 @@ const CreatePost = () => {
         <div className="flex flex-col md:flex-row items-start w-[90%] md:w-full mx-auto justify-between gap-4">
           <label
             htmlFor="fileInput"
-            className="cursor-pointer flex flex-col items-center w-[90%]  md:w-full">
-            <AiFillPlusCircle className="text-blue-500 text-3xl" />
+            className="cursor-pointer flex flex-col md:ml-0 ml-[3%] w-[90%]  md:w-[10%]">
+            <AiFillPlusCircle className="text-blue-500 text-3xl ml-[9%] md:ml-[20%] lg:ml-[25%]" />
             <p className="text-gray-500 text-sm">Upload image</p>
           </label>
           <input
@@ -91,7 +91,7 @@ const CreatePost = () => {
             placeholder="Title"
             name="title"
             required
-            className=" px-4 py-2 text-lg border-b border-gray-300 focus:outline-none w-[90%] mx-auto md:w-full"
+            className=" px-4 py-2 text-lg border-b border-gray-300 focus:outline-none w-[100%] mx-auto md:w-full"
             value={post.title}
             onChange={(e) => onInputChange(e)}
           />

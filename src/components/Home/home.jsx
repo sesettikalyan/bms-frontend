@@ -6,13 +6,13 @@ export default function Home() {
   return (
     <>
       <Banner />
-      <div className="container mx-auto ">
+      <div className="container ">
         <div className="flex md:flex-row flex-col gap-4">
-          <div className="w-[90%] md:w-[15%] lg:w-1/5 mx-auto md:mr-auto">
+          <div className="w-[90%] md:w-[20%] mx-auto md:mr-auto">
             <Categories />
           </div>
 
-          <div className="w-[100%] lg:w-1/5 mx-auto">
+          <div className="w-[100%]  mx-auto">
             <Posts />
           </div>
         </div>
